@@ -13,7 +13,7 @@ public class Pets {
     public void setName(String name) {
         this.name = name;
     }
-    public String speak (){
-        System.out.println("hello!");
+    public   String speak (){
+        return "hello!";
     }
 }
